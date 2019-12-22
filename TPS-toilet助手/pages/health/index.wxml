@@ -1,0 +1,16 @@
+<view class="sectionTitle "> *************健康小贴士************* </view>
+
+<!-- view组件很简单，显示在<view>和</view>之间的内容。
+“section”则是写在.wxss文件中的样式，容器的样式决定它的形状、颜色、位置等属性。-->
+
+<view class="index_wrap" style='height:150rpx;'>
+   <view class="index_story_text">{{text}}</view>
+</view>
+
+
+<view class='section'>tips</view>
+<view> <text class='redX'>{{context}}</text></view>
+<button class="tap" bindtap='text' type='primary'>next</button>
+
+
+

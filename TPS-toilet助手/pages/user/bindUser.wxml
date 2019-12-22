@@ -1,0 +1,19 @@
+<!-- pages/user/bindUser.wxml -->
+
+<view class='bg'></view>
+<text class='top left right declare'>反馈方式：点击下方按钮进行反馈</text>
+<!-- <view>
+<image class='wechat' src='../../images/wechat.jpg'></image>
+</view> -->
+
+<!-- <view class='line'></view>
+
+<view class='vertical'>
+<text class='top'>扫描上方二维码添加微信提出您的宝贵意见</text> -->
+<!-- <text class='top left right declare'>请输入真实准确的“姓名”、“学号”、“手机号”</text> -->
+<!-- </view> -->
+
+
+<button class='back' open-type="feedback">反馈</button>
+
+<!-- <button class='sureBtn'  bindtap='sureTap'>返回</button>  -->

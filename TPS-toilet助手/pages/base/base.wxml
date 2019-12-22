@@ -1,0 +1,24 @@
+<view>
+<image class='bupt' src='../../images/bupt.jpg'></image>
+<view class='cg'></view>
+<view class='cg'></view>
+</view>
+
+<text class='title'>请选择你所要查询的卫生间位置\n</text>
+<view class='bg'></view>
+<view class='cg'></view>
+
+<text type='primary'></text>
+<text class='lib'>S2 526室卫生间</text>
+<view class='cg'></view>
+<button class='but' bindtap="lib2" type='primary'>查询</button>  
+<!-- 多复制几个 -->
+<view class='cg'></view>
+<text class='n1'>教学综合楼N</text>
+<view class='cg'></view>
+<button class='but' bindtap="lib2" type='primary'>查询</button>  
+<!-- 复制 -->
+<view class='cg'></view>
+<text class='s2'>S2五楼</text>
+<view class='cg'></view>
+<button class='but' bindtap="lib2" type='primary'>查询</button>  

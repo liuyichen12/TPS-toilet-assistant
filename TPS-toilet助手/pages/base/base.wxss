@@ -1,0 +1,51 @@
+/* pages/biatch/biatch.wxss */
+.bg{
+  width: 100%;
+  height: 30rpx;
+  background-color: #edecf2;
+}
+.cg{
+  width: 100%;
+  height: 15rpx;
+  background-color: write;
+}
+
+.title{
+  margin-top: 20rpx;
+  margin-left: 100rpx;
+
+}
+
+.n1{
+  margin-left: 270rpx;
+}
+.s2{
+  margin-left: 320rpx;
+}
+
+.lib{
+  margin-left: 260rpx;
+}
+.bupt{
+  
+  width: 100%;
+  height: 200rpx;
+}
+.fg{
+  width: 100%;
+   height: 100rpx;
+  background-color:write;
+}
+.but{
+   width: 140rpx;
+  height: 60rpx;
+  color: #449f45;
+  border: 3rpx solid #449f45;
+  border-radius: 10rpx;
+  font-size: 24rpx;
+  margin-right: 310rpx; 
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-align: center;
+}

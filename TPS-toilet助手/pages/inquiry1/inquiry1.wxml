@@ -1,0 +1,47 @@
+<!--pages/inquiry1/inquiry1.wxml-->
+<!-- <text>pages/inquiry1/inquiry1.wxml</text> -->
+<view class='view-price'>
+  <view class='view-price-num'>
+    <image class='view-price-img' src='img/seat.png'></image>空闲</view>
+  <view class='view-price-num'>
+    <image class='view-price-img' src='img/noseat.png'></image>占用</view>
+    </view> 
+    <view class='cg'></view>
+   <view class='imagesize' wx:if="{{!chooseFlag1}}">
+  <image src="img/noseat.png" class='in-image'   >
+  </image>1号位置
+  </view>
+   <view class='imagesize'wx:if="{{chooseFlag1}}">
+   <image src="img/seat.png" class='in-image'   >
+  </image>1号位置
+  </view>
+  <view class='imagesize' wx:if="{{!chooseFlag2}}">
+  <image src="img/noseat.png" class='in-image'   >
+  </image>2号位置
+  </view>
+   <view class='imagesize'wx:if="{{chooseFlag2}}">
+   <image src="img/seat.png" class='in-image'   >
+  </image>2号位置
+  </view><view class='imagesize' wx:if="{{!chooseFlag3}}">
+  <image src="img/noseat.png" class='in-image'   >
+  </image>3号位置
+  </view>
+   <view class='imagesize'wx:if="{{chooseFlag3}}">
+   <image src="img/seat.png" class='in-image'   >
+  </image>3号位置
+  </view><view class='imagesize' wx:if="{{!chooseFlag4}}">
+  <image src="img/noseat.png" class='in-image'   >
+  </image>4号位置
+  </view>
+   <view class='imagesize'wx:if="{{chooseFlag4}}">
+   <image src="img/seat.png" class='in-image'   >
+  </image>4号位置
+  </view>
+  <view class='bg'></view>
+  <button bindtap="Refresh" class='primary'>刷新</button>
+    <!-- <view class='view-price-num'>
+    <image calss='view-price-img' src="img/noseat.png" ></image>一号位置
+</view> -->
+<!-- 座位 -->
+
+
